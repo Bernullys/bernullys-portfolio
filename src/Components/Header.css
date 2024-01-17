@@ -1,0 +1,25 @@
+.menu_logo_container {
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+.icon_container {
+    display: inline-block;
+}
+
+.menu_arrow_icon {
+    display: none;
+}
+
+.icon_container:hover .menu_arrow_icon {
+    display: inline-block;
+}
+
+.menu_list_container {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
