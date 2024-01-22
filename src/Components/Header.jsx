@@ -7,41 +7,45 @@ import "./Header.css"
 
 function Header () {
 
-    const [bgHovered, setBgHovered] = useState(false)
-
+    const [bgIconHovered, setBgIconHovered] = useState(false)
     const [menuVisible, setMenuVisible] = useState(false)
-
-    const [isUpMenuIcon, setIsUpMenuIcon] = useState(false)
-
     const [upMenuIconHovered, setUpMenuIconHovered] = useState(false)
 
+    let menuIcon = <CgMenuGridO/>
+    if (bgIconHovered) {
+        menuIcon = <TiArrowSortedDown/>
+    }
+    if (menuVisible) {
+        if (upMenuIconHovered){
+            menuIcon = <TiArrowSortedUp/>
+        } else {
+            menuIcon = <AiOutlineClose/>
+        }
+    }
+    
     const toggleMenu = () => {
         setMenuVisible(!menuVisible)
-        setIsUpMenuIcon(!isUpMenuIcon)
     }
 
     return (
         <header className="header__main__container">
             <nav className="header_navbar">
                 <div className="menu_logo_container">
-                    <span 
-                        className="icon_container"
-                        onMouseEnter={() => {
-                            setBgHovered(true)
-                            setUpMenuIconHovered(true)}}
+                    <span
+                        onMouseEnter = {() => {
+                            setBgIconHovered(true)
+                            setUpMenuIconHovered(true)
+                        }}
                         onMouseLeave={() => {
-                            setBgHovered(false)
-                            setUpMenuIconHovered(false)}}
+                            setBgIconHovered(false)
+                            setUpMenuIconHovered(false)
+                        }}
                         onClick={toggleMenu}
                         >
-                        {upMenuIconHovered ? (<TiArrowSortedUp className="menu_up_arrow_icon"/>) :
-                        isUpMenuIcon ? (<AiOutlineClose className="menu_x_icon"/>) :
-                        bgHovered ? (<TiArrowSortedDown className="menu_arrow_icon"/>)
-                        : (<CgMenuGridO className="bg_arrow_icon" />)
-                        }
+                        { menuIcon }
                     </span>
                 </div>
-                <ul className={menuVisible ? "visible" : "menu_list_container"}>
+                <ul className={menuVisible ? "visible" : "desapear"}>
                     <li>
                         <a href="">
                             <span>My projects</span>
