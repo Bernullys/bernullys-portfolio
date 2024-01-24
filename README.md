@@ -8,3 +8,6 @@ Header:
 commit: menu icon completed:
     I change the whole aproach. I defined a if statement to select the icon in each state. And using three states I could finally reach the goal.
     With this aproach I'm stop using the classes to display none the icons. Only to the ul element.
+
+commit: Presentation commponent:
+    I made a commponent that recives a name as a prop. Is a strait forward commponent but in this commit it really was about the section that add envolving the menu and the class added that make a transition of the menu.

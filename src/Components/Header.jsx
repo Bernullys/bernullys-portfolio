@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { CgMenuGridO } from "react-icons/cg"
 import { TiArrowSortedDown, TiArrowSortedUp } from "react-icons/ti"
 import { AiOutlineClose } from "react-icons/ai"
-
+import Presentation from "./Presentation"
 import "./Header.css"
 
 function Header () {
@@ -27,6 +27,8 @@ function Header () {
         setMenuVisible(!menuVisible)
     }
 
+    const name = "Bernardo"
+
     return (
         <header className="header__main__container">
             <nav className="header_navbar">
@@ -45,27 +47,33 @@ function Header () {
                         { menuIcon }
                     </span>
                 </div>
-                <ul className={menuVisible ? "visible" : "desapear"}>
-                    <li>
-                        <a href="">
-                            <span>My projects</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>About me</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Contact</span>
-                        </a>
-                    </li>
-                </ul>
+                <section className={menuVisible ? "menu_main_container active" : "menu_main_container"}>
+                    <ul className={menuVisible ? "visible" : "desapear"}>
+                        <li>
+                            <a href="">
+                                <span>My projects</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>About me</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <Presentation
+                    name = {name}
+                />
 
             </nav>
         </header>
     )
 }
 
-export default Header;
+export default Header
