@@ -11,3 +11,6 @@ commit: menu icon completed:
 
 commit: Presentation commponent:
     I made a commponent that recives a name as a prop. Is a strait forward commponent but in this commit it really was about the section that add envolving the menu and the class added that make a transition of the menu.
+
+commit: Add the arrow with a little animation:
+    I add an arrow with a class that make a move with position fixed to the botton and centered.

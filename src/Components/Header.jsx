@@ -67,11 +67,14 @@ function Header () {
                     </ul>
                 </section>
 
-                <Presentation
-                    name = {name}
-                />
-
+                <Presentation name = {name} />
+                
             </nav>
+
+            <section className="signal_to_keep_down">
+                <TiArrowSortedDown/>
+            </section>
+
         </header>
     )
 }

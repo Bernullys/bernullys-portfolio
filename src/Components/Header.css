@@ -2,7 +2,7 @@
     position: absolute;
     top: 16px;
     right: 40px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .desapear {
@@ -27,6 +27,7 @@
     background-color: gray;
     overflow: hidden;
     transition: height 0.5s ease;
+    z-index: 2;
 }
 
 .active {
@@ -40,4 +41,19 @@ li {
 
 a {
     text-decoration: none;
+}
+
+@keyframes move {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(10px);}
+    100%{transform: translateY(0px);}
+}
+
+.signal_to_keep_down {
+    position: fixed;
+    bottom: 24px;
+    right: 50%;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
