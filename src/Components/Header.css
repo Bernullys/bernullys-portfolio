@@ -50,8 +50,8 @@ a {
 }
 
 .signal_to_keep_down {
-    position: fixed;
-    bottom: 24px;
+    position: absolute;
+    top: calc(100vh - 100px  );
     right: 50%;
     animation-name: move;
     animation-duration: 1s;
