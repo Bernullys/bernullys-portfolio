@@ -1,10 +1,10 @@
 .footer_container {
-    position: fixed;
-    bottom: 0;
+    position:static;
+    bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 64px;
+    height: 48px;
     width: 100%;
     background-color: gray;
 }
