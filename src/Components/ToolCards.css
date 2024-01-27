@@ -1,0 +1,15 @@
+.toolcard_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    height: auto;
+    width: 192px;
+    border-radius: 16px;
+    margin: 24px;
+}
+
+.tool_icon {
+    height: 44px;
+    width: 44px;
+}
