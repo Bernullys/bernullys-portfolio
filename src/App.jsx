@@ -1,14 +1,16 @@
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import Toolkit from './Components/Toolkit'
 import Contact from './Components/Contact'
+import About from './Components/About'
+import Projects from './Components/Projects'
 import './App.css'
 
 function App() {
   return (
     <>
       <Header />
-      <Toolkit />
+      <Projects />
+      <About />
       <Contact />
       <Footer />
       

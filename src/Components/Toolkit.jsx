@@ -1,7 +1,6 @@
 import ToolCards from "./ToolCards"
 import { ImHtmlFive, ImCss3 } from "react-icons/im"
 import { TbBrandJavascript, TbBrandReactNative, TbBrandPython } from "react-icons/tb"
-import Layout from "./Layout"
 import "./Toolkit.css"
 
 
@@ -30,25 +29,23 @@ const techInfo = [
 
 function Toolkit () {
     return (
-        <Layout>
-            <section className="toolkit_main_container">
-                <article className="subtitle_paragraph_container">
-                    <h2 className="toolkit_subtitle">My Toolkit</h2>
-                    <p className="toolkit:paragraph">These are my current tools where I have some experience, and I am actively working to acquire additional skills.</p>
-                </article>
-                <section className="toolkit_cards_container">
-                    {
-                        techInfo.map(tech => (
-                            <ToolCards
-                            key={tech.techName}
-                            techName={tech.techName}
-                            iconImage={tech.iconImage}
-                            />
-                        ))
-                    }
-                </section>
+        <section className="toolkit_main_container">
+            <article className="subtitle_paragraph_container">
+                <h2 className="toolkit_subtitle">My Toolkit</h2>
+                <p className="toolkit:paragraph">These are my current tools where I have some experience, and I am actively working to acquire additional skills.</p>
+            </article>
+            <section className="toolkit_cards_container">
+                {
+                    techInfo.map(tech => (
+                        <ToolCards
+                        key={tech.techName}
+                        techName={tech.techName}
+                        iconImage={tech.iconImage}
+                        />
+                    ))
+                }
             </section>
-        </Layout>
+        </section>
     )
 }
 
