@@ -1,3 +1,8 @@
 .projects_main_container {
     width: 1000px;
 }
+
+.projects_cards_container {
+    display: flex;
+    gap: 24px;
+}
