@@ -6,7 +6,7 @@ import "./Contact.css"
 function Contact () {
     return (
         <Layout>
-            <form action="" className="contact_main_container">
+            <form id="contact" action="" className="contact_main_container">
                 <section className="form_left_container">
                     <article className="form_subtitle_container">
                         <h2 className="form_subtitle">Let's connect!</h2>

@@ -23,12 +23,48 @@ const myProjects = [
         onlineLink: "",
         repo: ""
     },
+    {
+        title: "The Movie Data Base",
+        description: "Here is where I'm applaying the most using javascript vanilla. Under the TMDB API",
+        tools: {
+            html: "HTML",
+            css: "CSS",
+            javaScript: "JavaScript",
+        },
+        onlineLink: "",
+        repo: ""
+    },
+    {
+        title: "HV Test",
+        description: "This is a landing page for an enterprise named HV Test (my first paid project).",
+        tools: {
+            html: "HTML",
+            css: "CSS",
+            javaScript: "JavaScript",
+            react: "React"
+        },
+        onlineLink: "",
+        repo: ""
+    },
+    {
+        title: "Ecommerce",
+        description: "This is the starting project to make an ecommerce",
+        tools: {
+            html: "HTML",
+            css: "CSS",
+            javaScript: "JavaScript",
+            react: "React",
+            tailwind: "Tailwind"
+        },
+        onlineLink: "",
+        repo: ""
+    },
 ]
 
 function Projects () {
     return (
         <Layout>
-            <section className="projects_main_container">
+            <section id="myProjects" className="projects_main_container">
                 <article>
                     <h2>My Projects</h2>
                 </article>

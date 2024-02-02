@@ -3,6 +3,11 @@
 }
 
 .projects_cards_container {
-    display: flex;
-    gap: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.projects_cards_container :nth-child(5) {
+    grid-column: span 2;
 }
