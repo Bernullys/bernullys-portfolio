@@ -13,3 +13,9 @@
     height: 44px;
     width: 44px;
 }
+
+@media (max-width: 1070px) {
+    .toolcard_container {
+        margin: 12px 12px 12px 0;
+    }
+}

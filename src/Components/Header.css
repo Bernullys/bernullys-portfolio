@@ -1,8 +1,8 @@
 .menu_logo_container {
-    position: absolute;
+    position: fixed;
     top: 16px;
     right: 40px;
-    z-index: 3;
+    z-index: 4;
 }
 
 .desapear {
@@ -13,6 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
 .menu_main_container {
@@ -39,7 +41,7 @@ li {
     list-style: none;
 }
 
-a {
+.menu_action {
     text-decoration: none;
 }
 
@@ -56,4 +58,35 @@ a {
     animation-name: move;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+
+@media (max-width: 1070px) {
+    .header__main__container,
+    .header_navbar {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 750px;
+    }
+}
+
+@media (max-width: 775px) {
+    .menu_main_container,
+    .header__main__container,
+    .header_navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 525px) {
+    .menu_logo_container {
+        position: fixed;
+        top: 16px;
+        right: 50%;
+        z-index: 4;
+    }
 }

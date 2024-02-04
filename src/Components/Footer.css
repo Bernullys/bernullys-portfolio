@@ -8,3 +8,17 @@
     width: 100%;
     background-color: gray;
 }
+
+@media (max-width: 1070px) {
+    .footer_container {
+        width: auto;
+    }
+}
+
+@media (max-width: 875px) {
+    .footer_container {
+        text-align: center;
+        height: 96px;
+        width: 100%;
+    }
+}

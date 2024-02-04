@@ -37,3 +37,43 @@
     background-color: #FFF;
     border-radius: 50%;
 }
+
+@media (max-width: 1070px) {
+    .presentation_main_container {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+    }
+    .name_paragraph_container {
+        margin-bottom: 120px;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 775px) {
+    .presentation_main_container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    .name_paragraph_container {
+        width: 500px;
+        margin-bottom: 120px;
+        margin-top: 120px;
+        
+    }
+}
+
+@media (max-width: 525px) {
+    .presentation_main_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .name_paragraph_container {
+        width: 90%;
+        margin-bottom: 120px;
+        margin-top: 120px;
+        
+    }
+}

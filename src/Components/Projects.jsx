@@ -20,7 +20,7 @@ const myProjects = [
         tools: {
             html: "HTML",
         },
-        onlineLink: "",
+        onlineLink: "https://bernullys.github.io/todowithjsvanilla/",
         repo: ""
     },
     {

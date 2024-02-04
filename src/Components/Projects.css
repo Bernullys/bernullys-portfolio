@@ -11,3 +11,59 @@
 .projects_cards_container :nth-child(5) {
     grid-column: span 2;
 }
+
+@media (max-width: 1070px) {
+    .projects_main_container {
+        height: 1600px;
+        width: 750px;
+    }
+    .projects_cards_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 750px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 775px) {
+    .projects_main_container {
+        height: 1675px;
+        width: 500px;
+    }
+    .projects_cards_container {
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: wrap;
+        align-items: center;
+        width: 500px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 525px) {
+    .projects_main_container {
+        height: 1725px;
+        width: 400px;
+    }
+    .projects_cards_container {
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: wrap;
+        align-items: center;
+        width: 400px;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 120px;
+    }
+}

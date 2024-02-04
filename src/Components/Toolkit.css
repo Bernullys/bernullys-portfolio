@@ -1,8 +1,26 @@
 .toolkit_main_container {
     width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toolkit_subtitle {
+    margin-top: 0;
 }
 
 .toolkit_cards_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1070px) {
+    .toolkit_main_container {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .toolkit_cards_container {
+        justify-content: center;
+    }
 }
