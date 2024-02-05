@@ -20,7 +20,6 @@ const Presentation = ( { name }) => {
                     </p>
                 </div>
             </article>
-            <img src="https://github.com/Bernullys/bernullys-portfolio/blob/main/public/assets/avatar.png" alt="my-avatar" className="my-avatar"/>
         </section>
     )
 }
