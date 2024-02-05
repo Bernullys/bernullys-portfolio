@@ -6,7 +6,7 @@ Header: (Header commponent contains Presentation commponent and the "signal_to_k
         2- Using a state and a function to toggle a class to display onClick of the  menu icons container.
 
 commit: menu icon completed:
-    I change the whole aproach. I defined a if statement to select the icon in each state. And using three states I could finally reach the goal.
+    I change the whole aproach. I defined an if statement to select the icon in each state. And using three states I could finally reach the goal.
     With this aproach I'm stop using the classes to display none the icons. Only to the ul element.
 
 commit: Presentation commponent:

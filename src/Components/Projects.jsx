@@ -11,8 +11,8 @@ const myProjects = [
             css: "CSS",
             javaScript: "JavaScript",
         },
-        onlineLink: "",
-        repo: ""
+        onlineLink: "https://bernullys.github.io/Curso-Consumo-API-REST-JS/",
+        repo: "https://github.com/Bernullys/Curso-Consumo-API-REST-JS"
     },
     {
         title: "ToDo App",
@@ -21,7 +21,7 @@ const myProjects = [
             html: "HTML",
         },
         onlineLink: "https://bernullys.github.io/todowithjsvanilla/",
-        repo: ""
+        repo: "https://github.com/Bernullys/todowithjsvanilla"
     },
     {
         title: "The Movie Data Base",
@@ -31,8 +31,8 @@ const myProjects = [
             css: "CSS",
             javaScript: "JavaScript",
         },
-        onlineLink: "",
-        repo: ""
+        onlineLink: "https://bernullys.github.io/Curso-Consumo-API-REST-conJS-II/",
+        repo: "https://github.com/Bernullys/Curso-Consumo-API-REST-conJS-II"
     },
     {
         title: "HV Test",
@@ -43,8 +43,8 @@ const myProjects = [
             javaScript: "JavaScript",
             react: "React"
         },
-        onlineLink: "",
-        repo: ""
+        onlineLink: "https://bernullys.github.io/servicios",
+        repo: "https://github.com/Bernullys/hvtest"
     },
     {
         title: "Ecommerce",
@@ -57,7 +57,7 @@ const myProjects = [
             tailwind: "Tailwind"
         },
         onlineLink: "",
-        repo: ""
+        repo: "https://github.com/Bernullys/Curso-Ecommerce"
     },
 ]
 

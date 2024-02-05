@@ -22,9 +22,15 @@ function Contact () {
                             +56977545456
                         </section>
                         <section className="social_icons">
-                            < FaGithub />
-                            < FaLinkedin />
-                            < FaInstagramSquare />
+                            <a className="social_icons_anchor" href="https://github.com/Bernullys" target="_blank" >
+                                < FaGithub />
+                            </a>
+                            <a className="social_icons_anchor" href="https://www.linkedin.com/in/bernardodavilarondon/" target="_blank" >
+                                < FaLinkedin />
+                            </a>
+                            <a className="social_icons_anchor" href="https://www.instagram.com/bernardo_antonio_/" target="_blank" >
+                                < FaInstagramSquare />
+                            </a>
                         </section>
                     </article>
                 </section>

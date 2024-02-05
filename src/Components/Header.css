@@ -45,6 +45,10 @@ li {
     text-decoration: none;
 }
 
+.menu_span {
+    color: #FFF;
+}
+
 @keyframes move {
     0%{transform: translateY(0px);}
     50%{transform: translateY(10px);}

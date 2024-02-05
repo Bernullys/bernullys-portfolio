@@ -29,7 +29,7 @@ function ProjectCard ({ title, description, tools, onlineLink, repo } ) {
                                 <a className="view_buttons_container_a" href={ onlineLink } target="_blank" >View online</a>
                             </li>
                             <li className="view_buttons_container_li">
-                                <a className="view_buttons_container_a" href={ repo }>Repo on GitHub</a>
+                                <a className="view_buttons_container_a" href={ repo } target="_blank" >Repo on GitHub</a>
                             </li>
                         </ul>
                     </section>

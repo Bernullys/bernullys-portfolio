@@ -53,17 +53,17 @@ function Header () {
                         <ul className={menuVisible ? "visible" : "desapear"}>
                             <li>
                                 <a className="menu_action" href="#myProjects" onClick={toggleMenu}>
-                                    <span>My projects</span>
+                                    <span className="menu_span">My projects</span>
                                 </a>
                             </li>
                             <li>
                                 <a className="menu_action" href="#about" onClick={toggleMenu}>
-                                    <span>About me</span>
+                                    <span className="menu_span">About me</span>
                                 </a>
                             </li>
                             <li>
                                 <a className="menu_action" href="#contact" onClick={toggleMenu}>
-                                    <span>Contact</span>
+                                    <span className="menu_span">Contact</span>
                                 </a>
                             </li>
                         </ul>

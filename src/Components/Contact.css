@@ -24,6 +24,10 @@
     flex-direction: column;
 }
 
+.social_icons_anchor {
+    color: #FFF;
+}
+
 .email_phone_contact, 
 .social_icons {
     display: flex;

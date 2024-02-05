@@ -1,6 +1,7 @@
 import ToolCards from "./ToolCards"
 import { ImHtmlFive, ImCss3 } from "react-icons/im"
 import { TbBrandJavascript, TbBrandReactNative, TbBrandPython } from "react-icons/tb"
+import { FaGitAlt } from "react-icons/fa6";
 import "./Toolkit.css"
 
 
@@ -24,6 +25,10 @@ const techInfo = [
     {
         techName: "Python",
         iconImage: <TbBrandPython className="tool_icon"/>
+    },
+    {
+        techName: "Git",
+        iconImage: <FaGitAlt className="tool_icon"/>
     },
 ]
 
