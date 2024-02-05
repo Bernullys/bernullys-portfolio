@@ -34,6 +34,15 @@
 }
 
 .my-avatar {
+    height: 225px;
+    width: 225px;
+    background-color: #FFF;
+    background: url("../../public/assets/avatar.png");
+}
+
+.my-avatar-background {
+    height: 225px;
+    width: 225px;
     background-color: #FFF;
     border-radius: 50%;
 }
