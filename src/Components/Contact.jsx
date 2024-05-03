@@ -4,9 +4,22 @@ import Layout from "./Layout"
 import "./Contact.css"
 
 function Contact () {
+
+    function sendEmail (event) {
+        event.preventDefault();
+        emailjs.sendForm("service_igwyjj2", "template_6lgyzuw", e.target, "hmsdfjLmOHGBqQ_p1")
+        window.scrollTo({ top: 0, behavior: "smooth"})
+        alert("Your message has been sent :)")
+    }
+
     return (
         <Layout>
-            <form id="contact" action="" className="contact_main_container">
+            <form 
+                id="contact"
+                className="contact_main_container"
+                onSubmit={sendEmail}
+                method="post"
+                encType="multipart/form-data">
                 <section className="form_left_container">
                     <article className="form_subtitle_container">
                         <h2 className="form_subtitle">Let's connect!</h2>
@@ -38,7 +51,7 @@ function Contact () {
                     <input type="text" name="name" id="name_input" placeholder="name" />
                     <input type="email" name="email" id="mail_input" placeholder="email" />
                     <textarea type="text" name="message" id="message_input" placeholder="message"/>
-                    <button className="form_send_button">Send</button>
+                    <button className="form_send_button" type="submit" value="Submit">Send</button>
                 </section>
             </form>
         </Layout>
