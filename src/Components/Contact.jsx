@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser"
 import { IoMailSharp } from "react-icons/io5"
 import { FaGithub, FaLinkedin, FaPhone, FaInstagramSquare} from "react-icons/fa"
 import Layout from "./Layout"
@@ -7,8 +8,9 @@ function Contact () {
 
     function sendEmail (event) {
         event.preventDefault();
-        emailjs.sendForm("service_igwyjj2", "template_6lgyzuw", e.target, "hmsdfjLmOHGBqQ_p1")
+        emailjs.sendForm("service_igwyjj2", "template_6lgyzuw", event.target, "hmsdfjLmOHGBqQ_p1")
         window.scrollTo({ top: 0, behavior: "smooth"})
+        console.log("Send")
         alert("Your message has been sent :)")
     }
 
