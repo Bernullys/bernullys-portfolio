@@ -22,3 +22,12 @@
         width: 100%;
     }
 }
+
+@media (max-width: 550px) {
+    .footer_container {
+        text-align: center;
+        height: auto;
+        width: auto;
+        margin-top: 24px;
+    }
+}

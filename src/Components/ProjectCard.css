@@ -110,18 +110,25 @@
 
 @media (max-width: 1070px) {
     .project_main_container {
-        width: 750px;
+        width: 90%;
     }
 }
 
-@media (max-width: 775px) {
-    .project_main_container {
-        width: 500px;
+@media (max-width: 400px) {
+    .tools_used_container {
+        display: none;
     }
 }
 
-@media (max-width: 775px) {
-    .project_main_container {
-        width: 400px;
+
+@media (max-width: 200px) {
+    .view_buttons_container_a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 165px) {
+    .view_buttons_container_a {
+        font-size: 10px;
     }
 }

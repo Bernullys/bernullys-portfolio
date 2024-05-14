@@ -15,7 +15,8 @@ const Presentation = ( { name }) => {
                 </div>
                 <div className="paragraph_container">
                     <p>
-                        Versatile programmer dedicated to continual learning, adept at navigating diverse tech landscapes, and passionate about delivering innovative solutions to complex challenges. 
+                        Versatile programmer dedicated to continual learning, adept at navigating diverse tech landscapes, 
+                        and passionate about delivering innovative solutions to complex challenges. 
                     <GiCrystalGrowth className="grow_icon"/>
                     </p>
                 </div>

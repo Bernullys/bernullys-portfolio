@@ -19,3 +19,10 @@
         margin: 12px 12px 12px 0;
     }
 }
+
+@media (max-width: 260px) {
+    .toolcard_container {
+        margin: 12px 0 12px 0;
+        width: 100%;
+    }
+}

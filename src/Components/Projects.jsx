@@ -25,7 +25,7 @@ const myProjects = [
     },
     {
         title: "The Movie Data Base",
-        description: "Here is where I'm applaying the most using javascript vanilla. Under the TMDB API",
+        description: "Here is where I'm applaying the most using javascript vanilla. Under the TMDB API (Only desktop view though)",
         tools: {
             html: "HTML",
             css: "CSS",
@@ -43,22 +43,22 @@ const myProjects = [
             javaScript: "JavaScript",
             react: "React"
         },
-        onlineLink: "https://bernullys.github.io/servicios",
-        repo: "https://github.com/Bernullys/hvtest"
+        onlineLink: "https://www.hvtest.cl",
+        repo: "https://github.com/Bernullys/hvtest-github"
     },
-    {
-        title: "Ecommerce",
-        description: "This is the starting project to make an ecommerce",
-        tools: {
-            html: "HTML",
-            css: "CSS",
-            javaScript: "JavaScript",
-            react: "React",
-            tailwind: "Tailwind"
-        },
-        onlineLink: "",
-        repo: "https://github.com/Bernullys/Curso-Ecommerce"
-    },
+    // {
+    //     title: "Ecommerce",
+    //     description: "This is the starting project to make an ecommerce",
+    //     tools: {
+    //         html: "HTML",
+    //         css: "CSS",
+    //         javaScript: "JavaScript",
+    //         react: "React",
+    //         tailwind: "Tailwind"
+    //     },
+    //     onlineLink: "",
+    //     repo: "https://github.com/Bernullys/Curso-Ecommerce"
+    // },
 ]
 
 function Projects () {

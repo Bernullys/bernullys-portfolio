@@ -86,3 +86,10 @@
         
     }
 }
+
+@media (max-width: 250px) {
+    .my-avatar-background,
+    .my-avatar {
+        display: none;
+    }
+}
