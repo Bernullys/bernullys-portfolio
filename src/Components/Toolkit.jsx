@@ -2,10 +2,27 @@ import ToolCards from "./ToolCards"
 import { ImHtmlFive, ImCss3 } from "react-icons/im"
 import { TbBrandJavascript, TbBrandReactNative, TbBrandPython } from "react-icons/tb"
 import { FaGitAlt } from "react-icons/fa6";
+import { SiSqlite, SiMysql } from "react-icons/si";
 import "./Toolkit.css"
 
 
 const techInfo = [
+    {
+        techName: "Python",
+        iconImage: <TbBrandPython className="tool_icon"/>
+    },
+    {
+        techName: "SQLite",
+        iconImage: <SiSqlite className="tool_icon"/>
+    },
+    {
+        techName: "MySQL",
+        iconImage: <SiMysql className="tool_icon"/>
+    },
+    {
+        techName: "Git",
+        iconImage: <FaGitAlt className="tool_icon"/>
+    },
     {
         techName: "HTML",
         iconImage: <ImHtmlFive className="tool_icon"/>
@@ -21,14 +38,6 @@ const techInfo = [
     {
         techName: "ReactJS",
         iconImage: <TbBrandReactNative className="tool_icon"/>
-    },
-    {
-        techName: "Python",
-        iconImage: <TbBrandPython className="tool_icon"/>
-    },
-    {
-        techName: "Git",
-        iconImage: <FaGitAlt className="tool_icon"/>
     },
 ]
 
