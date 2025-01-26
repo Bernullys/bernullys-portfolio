@@ -1,11 +1,17 @@
 .projects_main_container {
-    width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .projects_cards_container {
+    width: 80vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    gap: 4px;
+    height: auto;
+    position: auto;
 }
 
 .projects_cards_container :nth-child(5) {
@@ -14,7 +20,7 @@
 
 @media (max-width: 1070px) {
     .projects_main_container {
-        height: 1600px;
+        height: auto;
         width: 750px;
     }
     .projects_cards_container {

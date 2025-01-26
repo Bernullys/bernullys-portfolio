@@ -1,8 +1,34 @@
-import Layout from "./Layout"
 import ProjectCard from "./ProjectCard"
 import "./Projects.css"
 
 const myProjects = [
+    {
+        title: "__BAR__RESTAURANT_RUNNER__",
+        description: "This project is designed to be used while running a bar/restaurant, or a similar business. It has several features that are very useful for managing this type of business.",
+        tools: {
+            python: "Python"
+        },
+        onlineLink: "https://www.youtube.com/watch?v=kJSXuWtw-xs&t=9s",
+        repo: "https://github.com/Bernullys/curso_cs50_python/tree/main/project"
+    },
+    {
+        title: "Cleaning_Data",
+        description: "The purpose of this project is to take a file with raw data, organize and clean it, and then have it ready to be analyzed.",
+        tools: {
+            MySQL: "MySQL"
+        },
+        onlineLink: "",
+        repo: "https://github.com/Bernullys/cs50_sql/tree/main/MySQL_projects/data_cleaning"
+    },
+    {
+        title: "Electrical_Energy_DB",
+        description: "The purpose of my database is to store the electrical energy consumption of each communal room (if it exists) and each apartment in different residential buildings. So that individual invoices can be generated from the monthly record.",
+        tools: {
+            SQLite: "SQLite"
+        },
+        onlineLink: "https://www.youtube.com/watch?v=q5SntaEHsjg&t=1s",
+        repo: "https://github.com/Bernullys/cs50_sql/tree/main/project"
+    },
     {
         title: "Dog's Lovers",
         description: "An app for dog lovers. Enjoy random adorable dog pictures. Save your favorites. Upload your own dog photos.",
@@ -63,27 +89,25 @@ const myProjects = [
 
 function Projects () {
     return (
-        <Layout>
-            <section id="myProjects" className="projects_main_container">
-                <article>
-                    <h2>My Projects</h2>
-                </article>
-                <section className="projects_cards_container">
-                    {
-                        myProjects.map(project => (
-                            <ProjectCard
-                                key={project.title}
-                                title={project.title}
-                                description={project.description}
-                                tools={project.tools}
-                                onlineLink={project.onlineLink}
-                                repo={project.repo}  
-                            />
-                        ))
-                    }
-                </section>
+        <section id="myProjects" className="projects_main_container">
+            <article>
+                <h2>My Projects</h2>
+            </article>
+            <section className="projects_cards_container">
+                {
+                    myProjects.map(project => (
+                        <ProjectCard
+                            key={project.title}
+                            title={project.title}
+                            description={project.description}
+                            tools={project.tools}
+                            onlineLink={project.onlineLink}
+                            repo={project.repo}  
+                        />
+                    ))
+                }
             </section>
-        </Layout>
+        </section>
     )
 }
 
