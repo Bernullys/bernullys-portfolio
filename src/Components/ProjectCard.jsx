@@ -35,9 +35,9 @@ function ProjectCard ({ title, description, tools, onlineLink, repo } ) {
                     </section>
                 </article>
             </section>
-            <section className="project_card_inner_container">
+            {/* <section className="project_card_inner_container">
                 <h3 className="project_screem_title">{title}</h3>
-            </section>
+            </section> */}
         </section>
     )
 }

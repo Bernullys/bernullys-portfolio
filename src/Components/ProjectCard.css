@@ -10,7 +10,7 @@
 
 .project_container {
     display: flex;
-    opacity: 0;
+    opacity: 1;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -23,12 +23,12 @@
     z-index: 1;
 }
 
-.project_container:hover {
+/* .project_container:hover {
     z-index: 1;
     opacity: 1;
-}
+} */
 
-.project_card_inner_container {
+/* .project_card_inner_container {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@
     opacity: 1;
     transition: opacity 0.3s ease;
     z-index: 0;
-}
+} */
 
 .title_description_container {
     display: flex;

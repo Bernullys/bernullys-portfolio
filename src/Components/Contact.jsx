@@ -57,12 +57,12 @@ function Contact () {
                         </section>
                     </article>
                 </section>
-                <section className="form_right_container">
+                {/* <section className="form_right_container">
                     <input type="text" name="name" id="name_input" placeholder="name" required />
                     <input type="email" name="email" id="mail_input" placeholder="email" required />
                     <textarea type="text" name="message" id="message_input" placeholder="message" required/>
                     <button className="form_send_button" type="submit" value="Submit">Send</button>
-                </section>
+                </section> */}
             </form>
         </Layout>
     )

@@ -17,7 +17,7 @@ const myProjects = [
         tools: {
             MySQL: "MySQL"
         },
-        onlineLink: "",
+        onlineLink: "https://github.com/Bernullys/cs50_sql/tree/main/MySQL_projects/data_cleaning",
         repo: "https://github.com/Bernullys/cs50_sql/tree/main/MySQL_projects/data_cleaning"
     },
     {
