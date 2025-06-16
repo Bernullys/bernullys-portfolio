@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # Change to your build folder (e.g., ./build for React)
+          path: ./dist  # Ensure this matches your build directory
 
   deploy:
     needs: build
