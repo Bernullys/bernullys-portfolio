@@ -2,7 +2,8 @@ import ToolCards from "./ToolCards"
 import { ImHtmlFive, ImCss3 } from "react-icons/im"
 import { TbBrandJavascript, TbBrandReactNative, TbBrandPython } from "react-icons/tb"
 import { FaGitAlt } from "react-icons/fa6";
-import { SiSqlite, SiMysql } from "react-icons/si";
+import { SiSqlite, SiMysql, SiFastapi } from "react-icons/si";
+import { VscTerminalUbuntu } from "react-icons/vsc";
 import "./Toolkit.css"
 
 
@@ -18,6 +19,10 @@ const techInfo = [
     {
         techName: "MySQL",
         iconImage: <SiMysql className="tool_icon"/>
+    },
+    {
+        techName: "FastAPI",
+        iconImage: <SiFastapi className="tool_icon" />
     },
     {
         techName: "Git",
@@ -39,6 +44,10 @@ const techInfo = [
         techName: "ReactJS",
         iconImage: <TbBrandReactNative className="tool_icon"/>
     },
+    {
+        techName: "Ubuntu Terminal",
+        iconImage: <VscTerminalUbuntu className="tool_icon"/>
+    }
 ]
 
 function Toolkit () {
