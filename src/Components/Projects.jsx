@@ -2,6 +2,18 @@ import ProjectCard from "./ProjectCard"
 import "./Projects.css"
 
 const myProjects = [
+        {
+        title: "Grounding System",
+        description: "This page offers a tool for designing grounding mesh systems, featuring multiple methods for calculating ground resistance values.",
+        tools: {
+            html: "HTML",
+            css: "CSS",
+            javaScript: "JavaScript",
+            react: "React"
+        },
+        onlineLink: "https://bernullys.github.io/groundingsystem/",
+        repo: "https://github.com/Bernullys/groundingsystem"
+    },
     {
         title: "__BAR__RESTAURANT_RUNNER__",
         description: "This project is designed to be used while running a bar/restaurant, or a similar business. It has several features that are very useful for managing this type of business.",
