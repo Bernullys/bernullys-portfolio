@@ -2,7 +2,19 @@ import ProjectCard from "./ProjectCard"
 import "./Projects.css"
 
 const myProjects = [
-        {
+    {
+        title: "MLRental Spa",
+        description: "MLRental Spa is a company dedicated to the rental of specialized equipment for measuring electrical parameters in power systems.",
+        tools: {
+            html: "HTML",
+            css: "CSS",
+            javaScript: "JavaScript",
+            react: "React"
+        },
+        onlineLink: "https://mlrental.cl/",
+        repo: "https://github.com/Bernullys/ML_Rental_SpA"
+    },
+    {
         title: "Grounding System",
         description: "This page offers a tool for designing grounding mesh systems, featuring multiple methods for calculating ground resistance values.",
         tools: {

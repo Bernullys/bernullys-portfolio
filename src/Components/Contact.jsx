@@ -1,4 +1,4 @@
-import emailjs from "@emailjs/browser"
+// import emailjs from "@emailjs/browser"
 import { IoMailSharp } from "react-icons/io5"
 import { FaGithub, FaLinkedin, FaPhone, FaInstagramSquare} from "react-icons/fa"
 import Layout from "./Layout"
