@@ -3,6 +3,18 @@ import "./Projects.css"
 
 const myProjects = [
     {
+        title: "RConstrucciones",
+        description: "This is a website created for a new decoration and renovation contractor company seeking to attract more clients and increase its reach among new potential clients.",
+        tools: {
+            html: "HTML",
+            css: "CSS",
+            javaScript: "JavaScript",
+            react: "React"
+        },
+        onlineLink: "https://www.rconstrucciones.cl/"
+
+    },
+    {
         title: "MLRental Spa",
         description: "MLRental Spa is a company dedicated to the rental of specialized equipment for measuring electrical parameters in power systems.",
         tools: {
