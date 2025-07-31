@@ -7,6 +7,12 @@
     margin-bottom: 0px;
 }
 
+.resume-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    
+}
+
 @media (max-width: 1070px) {
     .about_main_container {
         width: 80%;
